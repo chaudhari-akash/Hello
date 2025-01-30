@@ -13,6 +13,7 @@ pipeline {
             steps {
                 echo "Execute build commands or scripts"
                 //sh 'your-build-command-or-script.sh'
+                python3 hello.py
             }
         }
 
